@@ -1,0 +1,141 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Raleway", sans-serif;
+  color: yellow;
+  font-size: 16px;
+}
+
+.logo {
+  position: absolute;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  padding: 10px 4rem;
+}
+.logo .span {
+  position: fixed;
+  display: inline-block;
+  top: 10px;
+  left: 10px;
+  color: yellow;
+  background-color: purple;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid yellow;
+}
+
+.btn {
+  border: 1px solid yellow;
+  color: yellow;
+  padding: 0.5rem 1rem;
+  margin: 0 0.3rem;
+  border-radius: 0.2rem;
+  text-decoration: none;
+}
+
+.home {
+  min-height: 500px;
+  height: 100vh;
+  padding: 4rem 4rem;
+  box-sizing: border-box;
+  background: purple;
+  background: -moz-radial-gradient(center, ellipse cover, purple 0%, #008da0 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, purple 0%, #008da0 100%);
+  background: radial-gradient(ellipse at center, purple 0%, #008da0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="$main-color", endColorstr="#008da0", GradientType=1);
+  display: flex;
+  flex-direction: column;
+}
+.home .welcome {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  color: yellow;
+}
+.home .welcome .h1 {
+  border-bottom: 2px dotted yellow;
+  margin: 0 0 2rem 0;
+  padding: 0 0 2rem 0;
+  font-size: 3rem;
+}
+
+.services {
+  padding: 4rem 4rem;
+  background-color: purple;
+}
+.services .h2 {
+  color: #008da0;
+}
+.services .div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.services .service-block {
+  width: 30%;
+  min-width: 280px;
+  margin: 1.5%;
+  box-sizing: border-box;
+}
+.services .service-block .h3 {
+  color: #008da0;
+  text-align: center;
+}
+.services .service-block .service-img {
+  background-color: #ccc;
+  height: 150px;
+}
+
+.contacts {
+  padding: 4rem 4rem;
+  background-color: black;
+}
+.contacts .form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.contacts .form .label {
+  margin: 1rem 0;
+}
+.contacts .form .input {
+  border: 1px solid #008da0;
+  padding: 10px;
+  border-radius: 5px;
+}
+.contacts .form .input .input[type=submit] {
+  background-color: #008da0;
+  width: 25%;
+  margin: 1rem auto;
+}
+.contacts .form .input:focus {
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #00a3ba;
+  color: #fff;
+}
+.contacts .form .textarea {
+  border: 1px solid #008da0;
+  padding: 10px;
+  border-radius: 5px;
+}
+.contacts .form .textarea:focus {
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #00a3ba;
+  color: #fff;
+}
+
+footer {
+  padding: 1rem 4rem;
+  background-color: purple;
+  color: yellow;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
